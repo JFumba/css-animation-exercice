@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  #stage {
+  background-color: #ddd;
+  border: 1px dashed grey;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+}
+
+#hero {
+  border: 1px dashed red;
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+  left: 10px;
+  animation-duration: 20s;
+  /* animation-iteration-count: infinite; */
+  animation-name: test01;
+}
+
+@keyframes test01 {
+  0% {
+    transform: translateX(0px);
+  }
+
+  25% {
+    transform: translateX(505px);
+  }
+
+  50%  {
+    transform: translate(505px, 100px);
+  }
+
+  52.5%  {
+    transform: translate(305px, 100px) rotate(45deg);
+  }
+
+  62.5%  {
+    transform: translate(305px, 100px) rotate(45deg);
+    border-color: red;
+  }
+
+  75%  {
+    transform: translate(0px, 100px) rotate(90deg);
+    border: 1px dashed #0900BD;
+    border-radius: 0%;
+    background: transparent;
+    width: 75px;
+    height: 75px;
+  }
+
+  100%  {
+    transform: translate(440px, 440px);
+    border-radius: 100%;
+    background: radial-gradient(#FBDA61, #F76B1C);
+    border: none;
+    width: 150px;
+    height: 150px;
+  }
+}
+  </style>
+</head>
+<body>
+  <div id="stage">
+    <div id="hero">&nbsp;</div>
+  </div>
+</body>
+</html>
