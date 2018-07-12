@@ -41,3 +41,40 @@ header {
   text-align: center;
 
   }
+
+	.preamble {
+		/*left: -20;*/
+		right: 0;
+		width:auto;
+		height: auto;
+		color: white;
+		text-shadow: 2px 2px 4px #000000;
+		background: -webkit-linear-gradient(90deg, rgba(125, 125, 125, 0.93), rgba(10, 10, 10, 0.9));
+		background: linear-gradient(90deg, rgba(125, 125, 125, 0.93), rgba(10, 10, 10, 0.9));
+		/*opacity: 0.1;*/
+		text-align: center;
+		margin: -20px;
+		padding: 0;
+	}
+
+
+
+
+
+
+
+	.main-supporting {
+		/*left: -20;*/
+
+	  right: 0;
+		width:auto;
+	  height: auto;
+	  color: white;
+	  text-shadow: 2px 2px 4px #000000;
+	  background: -webkit-linear-gradient(90deg, rgba(125, 125, 125, 0.93), rgba(10, 10, 10, 0.9));
+	  background: linear-gradient(90deg, rgba(125, 125, 125, 0.93), rgba(10, 10, 10, 0.9));
+	  /*opacity: 0.1;*/
+	  text-align: center;
+	  margin: -20px;
+	  padding-top: 10px;
+	}
